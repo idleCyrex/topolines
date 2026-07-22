@@ -10,6 +10,9 @@
     "url": "git+https://github.com/idleCyrex/topolines.git"
   },
   "homepage": "https://topolines.idlee.xyz",
+  "bugs": {
+    "url": "https://github.com/idleCyrex/topolines/issues"
+  },
   "keywords": [
     "react",
     "webgl",
