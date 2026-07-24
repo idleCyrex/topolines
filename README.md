@@ -33,6 +33,22 @@ field.pause();
 field.destroy();
 ```
 
+## No build step
+
+Works straight from a CDN in a plain HTML file, no npm and no bundler needed:
+
+```html
+<div id="topolines-bg" style="position:fixed;inset:0"></div>
+
+<script type="module">
+  import { TopoField } from "https://esm.sh/topolines";
+
+  const field = new TopoField(document.getElementById("topolines-bg"), {
+    seed: "hero",
+  });
+</script>
+```
+
 ## Props (`TopolinesOptions`)
 
 | Prop | Type | Default | Description |
