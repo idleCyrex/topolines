@@ -35,7 +35,18 @@ field.destroy();
 
 ## No build step
 
-Works straight from a CDN in a plain HTML file, no npm and no bundler needed:
+Classic script tag (exposes a `topolines` global):
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/topolines"></script>
+<script>
+  const field = new topolines.TopoField(document.getElementById("topolines-bg"), {
+    seed: "hero",
+  });
+</script>
+```
+
+Or as an ES module, no npm and no bundler needed:
 
 ```html
 <div id="topolines-bg" style="position:fixed;inset:0"></div>

@@ -3,7 +3,8 @@ import { defineConfig } from "tsup";
 export default defineConfig([
   {
     entry: { index: "src/index.ts" },
-    format: ["esm", "cjs"],
+    format: ["esm", "cjs", "iife"],
+    globalName: "topolines",
     dts: true,
     sourcemap: true,
     clean: true,
