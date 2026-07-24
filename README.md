@@ -2,6 +2,8 @@
 
 Animated topographic contour backgrounds. One React component, zero dependencies, drawn on the GPU.
 
+**[Interactive playground](https://topolines.idlee.xyz/playground)** · **[Try it on CodeSandbox](https://codesandbox.io/p/sandbox/m454xs)**
+
 ## Install
 
 ```
