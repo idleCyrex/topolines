@@ -1,6 +1,6 @@
 {
   "name": "topolines",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Animated topographic contour backgrounds for React and vanilla JS. Zero dependencies, drawn on the GPU.",
   "license": "MIT",
   "type": "module",
